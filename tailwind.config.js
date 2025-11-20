@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -13,6 +14,49 @@ export default {
         mona: ['Mona Sans', 'system-ui', 'sans-serif'],
         'ibm-plex': ['IBM Plex Sans', 'system-ui', 'sans-serif'],
         manrope: ['Manrope', 'system-ui', 'sans-serif'],
+      },
+      colors: {
+        sand: {
+          50: '#fbf7f0',
+          100: '#f5eddc',
+          200: '#e8d9b8',
+          300: '#d9bf86',
+          400: '#c7a65f',
+          500: '#b58e45',
+          600: '#906d34',
+          700: '#70522a',
+          800: '#4b3820',
+          900: '#2b2115',
+        },
+        nile: {
+          50: '#eef7fb',
+          100: '#d5ebf7',
+          200: '#a9d6ee',
+          300: '#79bee2',
+          400: '#4ea6d5',
+          500: '#2a8cc3',
+          600: '#1c6fa2',
+          700: '#16597f',
+          800: '#124663',
+          900: '#0e3449',
+        },
+        papyrus: {
+          50: '#fcfaf5',
+          100: '#f7f1e3',
+          200: '#efe1c2',
+          300: '#e4c893',
+          400: '#d7b06c',
+          500: '#c7994d',
+          600: '#a1783c',
+          700: '#7a5a2e',
+          800: '#533e22',
+          900: '#2f2315',
+        },
+        gold: {
+          400: '#f3c766',
+          500: '#eab308',
+          600: '#ca8a04',
+        },
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
